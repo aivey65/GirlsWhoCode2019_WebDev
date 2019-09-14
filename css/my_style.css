@@ -1,0 +1,85 @@
+/* Original Colors Used:
+#D9A5BC (purple)
+#92C7C7 (blue)
+#FD5753 (red)
+#FFFF50 (yellow)
+Check out this website to find hex codes for other colors!:
+https://www.computerhope.com/htmcolor.htm
+*/
+
+/* Original Font:
+"Trebuchet MS", Helvetica, sans-serif
+Check out this link for web safe fonts you can use!:
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+ */
+
+
+/* This controls the style for everything visable on the page.
+Basically, everything within your html 'body' tags will be affected
+by these styles. */
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 3vw;
+  background-color: #D9A5BC;
+}
+
+#video {
+  width: 38vw;
+  height: 40vh;
+}
+
+#photo1 {
+  width: 30vw;
+  height: auto;
+
+  /* The below section can add a border to the image. */
+  border-style: none;
+  border-color: black;
+  border-width: 0vw;
+}
+
+/* This 'photo_container' controls the section surrounding the main
+image and the main description underneath it. Try changing the gray
+(#999) background to another color! */
+.photo_container {
+  margin: 0 auto;
+  width: 30vw;
+  padding: 3vw;
+  background-color: #9999;
+  text-align: center;
+  /* Changing border-radius can curve the corners of the photo_container */
+  border-radius: 0vw;
+  box-shadow: .5vw .5vw 1vw #000000;
+}
+
+/* This controls the style of the text box next to the image. */
+.text_container {
+  width: auto;
+  margin: 0vw;
+
+}
+
+h1 {
+  padding: 1vw;
+  font-size: 4vw;
+  text-align: left;
+}
+
+/* Controls the text for the quote section. */
+h3 {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.6vw;
+}
+
+/* This controls the sections of the table. There are two tables being
+used: one for the photo_container and one for the text_container */
+td {
+  vertical-align: top;
+  width: 50%;
+  padding: 1vw
+}
